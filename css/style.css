@@ -17,11 +17,11 @@ body {
     background-size: max(1800px, 100vw);
     background-repeat: no-repeat;
     position: relative;
-    height: 71vh;
+    height: 97vh;
 }
 
 .main .box {
-    height: 71vh;
+    height: 97vh;
     width: 100%;
     opacity: 0.54;
     background-color: black;
@@ -181,28 +181,48 @@ input::placeholder {
 .animated-card {
     border: 1px solid gray;
     width: 21vw;
-    height: 19vh;
+    height: 15vh;
     position: relative;
     bottom: 128px;
     z-index: 10;
     left: 114px;
     border-radius: 15px;
+    background: #000;
 }
 
-/* 
+
 .st-img {
     width: 4vw;
-    height: 17vh;
+    height: 12vh;
     left: 12px;
-    top: 5px;
-}*/
+    top: 8px;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
-/* .secimg .  img {
-    width: 4vw;
-    height: 17vh;
-    left: 12px;
-    top: 5px;
-} */
+.st-text {
+    top: 22px;
+    left: 73px;
+    width: 9vw;
+}
+
+.st-text> :nth-child(2) {
+    color: blue;
+}
+
+.st-text img {
+    width: 12px;
+}
+
+.icons {
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+    left: 181px;
+    width: 2vw;
+}
 
 .secimg {
     position: relative;
