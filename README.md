@@ -1,4 +1,4 @@
-### Documentation for `index.html` and `style.css`
+### Documentation for Netflix Clone
 
 
 The `index.html` file is the main HTML document for a Netflix-like streaming service tailored for the Indian market. It features a responsive design suitable for various devices, from mobile phones to desktop computers. The document is structured to present information about the service, including membership benefits, device compatibility, and FAQs. The styling of the page is managed through an external stylesheet located at `/css/style.css`.
